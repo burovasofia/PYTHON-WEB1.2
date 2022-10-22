@@ -1,0 +1,50 @@
+body{
+    background: #E0FFFF;
+
+}
+aside{
+    float: left;
+    background: #EE82EE;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #black;
+    border-right: 5px solid #0000CD;
+}
+
+aside img{
+    width: 300px;
+}
+
+aside .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+aside h3{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+aside ul{list-style: none}
+
+aside ul li {
+    color: 	#black;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #red;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin 20px auto}
